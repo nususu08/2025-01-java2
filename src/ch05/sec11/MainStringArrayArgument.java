@@ -9,6 +9,5 @@ public class MainStringArrayArgument {
         for(String value : args) {
             System.out.println(value);
         }
-
     }
 }
