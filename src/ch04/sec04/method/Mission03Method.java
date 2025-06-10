@@ -1,7 +1,6 @@
 package ch04.sec04.method;
 
 import ch03.sec11.ScoreMethodExample;
-import ch06.sec08.Calculator;
 
 public class Mission03Method {
     public static void main(String[] args) {
