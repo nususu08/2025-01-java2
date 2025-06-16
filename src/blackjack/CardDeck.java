@@ -22,10 +22,10 @@ public class CardDeck {
                 cards[temp++] = new Card(string, s);
             }
         }
-        shuffile();
+        shuffle();
     }
 
-    private void shuffile() {
+    private void shuffle() {
         for (int i=0; i<cards.length; i++) {
             int temp = (int)(Math.random() * cards.length);
             Card temp2 = cards[i];
