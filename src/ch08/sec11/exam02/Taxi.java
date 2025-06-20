@@ -12,7 +12,7 @@ public class Taxi implements Vehicle, Trunk {
     }
 
     @Override
-    public void load(String str) {
-
+    public void load(String luggage) {
+        System.out.printf("택시 트렁크에 %s를 싣는다.\n", luggage);
     }
 }
